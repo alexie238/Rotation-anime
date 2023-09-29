@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>my animation</title>
+      <style>
+         *{
+            margin:0;
+            padding:0;
+            
+         }
+         body{
+            background:black;
+         }
+         .cirle{
+            width:80px;
+            height:80px;
+            border:35px solid yellow;
+            position: absolute;
+            left:69%;
+            top:20%;
+            transform:translate(-50%,-50%);
+            border-top-color:blue;
+            border-bottom-color:red;
+            border-radius:0%;
+            animation:animate 0.2s linear infinite;
+         }
+         div{
+            width:80px;
+            height:80px;
+            border:35px solid white;
+            position: absolute;
+            left:0%;
+            top:20%;
+            transform:translate(-40,-40);
+            border-top-color:red;
+            border-bottom-color:blue;
+            border-radius:0%;
+            animation:animate 0.2s linear infinite;
+         }
+         .circle2{
+            width:80px;
+            height:80px;
+            border:35px solid pink;
+            position: absolute;
+            left:35%;
+            top:20%;
+            border-radius:0%;
+            transform: translate (-40%,-40%);
+            border-top-color:red;
+            border-bottom-color:blue;
+            animation:animate 0.2s linear infinite
+         }
+         .line{
+            width:80px;
+            height:80px
+            border:7px solid black;
+            position:absolute;
+            top:40%;
+            border-radius:0%;
+         }
+         h1{
+         
+            border:10px solid aqua;
+            position: absolute;
+           
+            
+         }
+         @keyframes animate{
+            0%{
+               transform:rotate(0deg)
+            }
+            100%{
+               transform:rotate(360deg)
+      </style>
+   </head>
+   
+   <body>
+      
+      <div></div>
+     <div class="cirle"></div>
+     <div class="circle2"></div>
+     <div class="line"></div>
+     <h1 style="color:pink"><span style="color:blue;">HELLO</span> <span style="color: purple;">🌎 WORLD</span> <span style="color:white;">WELCOME TÒ</span><span style="color: yellow;">ANIMATIONS</span> WRLD 💕</h1>
+     
+     
+      
+   </body>
+</html>
